@@ -17,7 +17,6 @@ A powerful, beautiful and flexible AI terminal client.
 📁 PROJECT FILES
 main.py        – Main application
 config.py      – API key configuration
-library.txt    – Library of recommended OpenRouter models
 README.md      – This documentation
 
 ====================================================================
@@ -25,8 +24,7 @@ README.md      – This documentation
 1) Create project folder:
    mkdir vulcanix-ai && cd vulcanix-ai
 
-2) Install dependencies:
-   pip install requests
+2) (No external dependencies required)
 
 ====================================================================
 ⚙️ CONFIGURATION
@@ -36,19 +34,6 @@ Create file: config.py
 
 Get your API key:
    https://openrouter.ai/keys
-
-====================================================================
-📚 MODELS LIBRARY (library.txt)
-Open library.txt
-Copy the model name you like
-Paste it when the program asks: "Model:"
-
-Recommended models:
-• openrouter/free                 – Best free option
-• anthropic/claude-haiku-4.5      – Fast, smart, cheap
-• anthropic/claude-3.5-haiku      – Great balance
-• google/gemini-3.5-flash         – Very fast, huge context
-• deepseek/deepseek-r1:free       – Strong free reasoning model
 
 ====================================================================
 💡 HOW TO USE
@@ -62,6 +47,11 @@ Enter the model (or press Enter for openrouter/free)
 
 Type your queries.
 Type "exit" to quit the program.
+
+====================================================================
+📜 LICENSE
+This project is licensed under the Apache License 2.0.
+See the LICENSE file for details.
 
 ====================================================================
 Made with ❤️ for artem567yt

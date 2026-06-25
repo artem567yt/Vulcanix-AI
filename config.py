@@ -1,0 +1,1 @@
+API_KEY = "sk-or-..."   # your AI token
